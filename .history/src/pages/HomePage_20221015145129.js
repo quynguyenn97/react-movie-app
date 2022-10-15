@@ -27,7 +27,7 @@ const HomePage = () => {
                 </h2>
                 <MovieList type="popular"></MovieList>
             </section>
-            <h2 className="text-[#88d13a] capitalize mb-5 text-2xl sm:text-3xl font-bold page-container">
+            <h2 className="text-[#88d13a] capitalize mb-5 text-2xl sm:text-3xl font-bold">
                 TV SHOWS:
             </h2>
             <section className="movies-layout page-container pb-20">
