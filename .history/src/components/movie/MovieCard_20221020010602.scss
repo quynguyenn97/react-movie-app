@@ -1,0 +1,15 @@
+.movie-card {
+    transition: transform 0.5s;
+    position: relative;
+
+    .content-card {
+        width: 150px;
+        transition: transform 1s;
+
+        .btn-card {
+        }
+    }
+    &:hover {
+        transform: scale(1.1);
+    }
+}

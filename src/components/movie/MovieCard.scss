@@ -1,0 +1,8 @@
+.movie-card {
+    transition: transform 0.5s;
+    position: relative;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}

@@ -1,0 +1,37 @@
+.navbar active {
+    background-color: white;
+}
+.left-input {
+    font-size: 15px;
+    border: none;
+    color: #fff;
+    outline: none;
+    width: 0px;
+    padding: 5px;
+    background: #111111;
+    border: 1px solid #fff;
+    transition: width 0.5s;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 10;
+
+    &:focus {
+        padding-left: 15px;
+        width: 250px;
+        cursor: text;
+        opacity: 1;
+        padding-left: 30px;
+        z-index: -1;
+    }
+}
+.logo {
+    cursor: pointer;
+}
+.search {
+    top: 5px;
+    cursor: pointer;
+}
+.avatar-header {
+    background-image: url("https://scontent.fsgn5-12.fna.fbcdn.net/v/t39.30808-6/286023925_2274362416036363_5119365242000295995_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=AThROAbBmvkAX-RChyn&tn=AVeWqYmS_aMiGNI6&_nc_ht=scontent.fsgn5-12.fna&oh=00_AT8TV2T3xNfds23bw9FMNDWkdAuertql_oOws6Wwj5QrEg&oe=6354E6FD");
+    background: object-fit: cover;
+}

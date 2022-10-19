@@ -1,0 +1,31 @@
+.navbar active {
+    background-color: white;
+}
+.left-input {
+    font-size: 15px;
+    border: none;
+    color: #fff;
+    outline: none;
+    width: 0px;
+    padding: 5px;
+    background: #111111;
+    border: 1px solid #fff;
+    transition: width 0.5s;
+    cursor: pointer;
+    opacity: 0;
+
+    &:focus {
+        padding-left: 15px;
+        width: 250px;
+        cursor: text;
+        opacity: 1;
+    }
+}
+.logo {
+     {
+        width: 1.8rem;
+        height: 1.8rem;
+        transform: translateX(2.4rem) translateY(1rem);
+        cursor: pointer;
+    }
+}

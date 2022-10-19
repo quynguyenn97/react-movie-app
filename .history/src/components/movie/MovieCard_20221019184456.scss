@@ -1,0 +1,16 @@
+.movie-card {
+    transition: transform 0.5s;
+    .btn-card {
+        position: absolute;
+    }
+    &:hover {
+        transform: scale(1.1);
+        z-index: 10;
+        .movie-list {
+            background-color: black;
+        }
+        .btn-1 {
+            visibility: visible;
+        }
+    }
+}

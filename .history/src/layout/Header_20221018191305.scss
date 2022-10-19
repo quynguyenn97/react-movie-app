@@ -1,0 +1,24 @@
+.navbar active {
+    background-color: white;
+}
+.left-input {
+    font-size: 10px;
+    border: none;
+    color: #fff;
+    outline: none;
+    width: 0px;
+    padding: 5px;
+    padding-right: 2rem;
+    background: white;
+    border: 1px solid #fff;
+    transition: width 0.5s;
+    cursor: pointer;
+    opacity: 0;
+
+    &:focus {
+        padding-left: 4rem;
+        width: 22rem;
+        cursor: text;
+        opacity: 1;
+    }
+}

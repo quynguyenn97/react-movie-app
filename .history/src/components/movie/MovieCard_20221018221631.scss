@@ -1,0 +1,6 @@
+.movie-card {
+    &:hover {
+        transform: scale(0.7);
+        background-color: white;
+    }
+}

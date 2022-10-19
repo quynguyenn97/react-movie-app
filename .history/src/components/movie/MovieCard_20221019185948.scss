@@ -1,0 +1,21 @@
+.movie-card {
+    transition: transform 0.5s;
+    position: relative;
+
+    .content-card {
+        position: absolute;
+        transform: translateX(20%) translateY(90%);
+        .btn-card {
+        }
+    }
+    &:hover {
+        transform: scale(1.1);
+        z-index: 10;
+        .movie-list {
+            background-color: black;
+        }
+        .btn-1 {
+            visibility: visible;
+        }
+    }
+}
